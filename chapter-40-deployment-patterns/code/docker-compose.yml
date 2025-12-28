@@ -1,0 +1,103 @@
+# docker-compose.yml
+#
+# Chapter 40: Deployment Patterns
+#
+# Run:    docker-compose up
+# Stop:   docker-compose down
+# Logs:   docker-compose logs -f agent-api
+# Scale:  docker-compose up --scale agent-api=3
+
+version: '3.8'
+
+services:
+  # ===========================================================================
+  # Main Agent API
+  # ===========================================================================
+  agent-api:
+    build:
+      context: .
+      target: production
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - ENVIRONMENT=development
+      - DEBUG=true
+      - REDIS_HOST=redis
+    volumes:
+      # Mount code for development hot-reload
+      - .:/app
+    command: uvicorn production_api:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/live')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # ===========================================================================
+  # Redis (for caching and task queues)
+  # ===========================================================================
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  # ===========================================================================
+  # Background Worker (for long-running tasks)
+  # ===========================================================================
+  worker:
+    build:
+      context: .
+      target: production
+    env_file:
+      - .env
+    environment:
+      - REDIS_HOST=redis
+    depends_on:
+      redis:
+        condition: service_healthy
+    # Uncomment when using RQ for background tasks:
+    # command: rq worker agent-tasks --url redis://redis:6379
+    command: echo "Worker ready - configure task queue command"
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+    driver: local
+
+# ===========================================================================
+# Production configuration (use with: docker-compose -f docker-compose.yml -f docker-compose.prod.yml up)
+# ===========================================================================
+# Create docker-compose.prod.yml with:
+#
+# version: '3.8'
+# services:
+#   agent-api:
+#     build:
+#       target: production
+#     environment:
+#       - ENVIRONMENT=production
+#       - DEBUG=false
+#     volumes: []  # Don't mount code in production
+#     command: uvicorn production_api:app --host 0.0.0.0 --port 8000 --workers 4
+#     deploy:
+#       replicas: 2
+#       resources:
+#         limits:
+#           cpus: '1'
+#           memory: 512M
