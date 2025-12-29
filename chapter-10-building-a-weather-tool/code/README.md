@@ -19,35 +19,35 @@ Before running these examples, ensure you have:
 Explores the Open-Meteo API to understand its structure before building our tool. Run this first to see how the geocoding and weather APIs work.
 
 ```bash
-python explore_api.py
+uv run python explore_api.py
 ```
 
 ### `weather_tool.py`
 The complete weather tool implementation with comprehensive error handling. This module can be imported into other scripts.
 
 ```bash
-python weather_tool.py
+uv run python weather_tool.py
 ```
 
 ### `weather_agent.py`
 A complete agent that uses the weather tool to answer questions. This demonstrates the full tool use loop with Claude.
 
 ```bash
-python weather_agent.py
+uv run python weather_agent.py
 ```
 
 ### `test_weather_tool.py`
 Tests for the weather tool to verify reliability, edge cases, and performance.
 
 ```bash
-python test_weather_tool.py
+uv run python test_weather_tool.py
 ```
 
 ### `exercise.py`
 Solution to the practical exercise: a weather tool with 3-day forecast support.
 
 ```bash
-python exercise.py
+uv run python exercise.py
 ```
 
 ## Key Concepts Demonstrated
