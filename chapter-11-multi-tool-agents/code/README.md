@@ -26,7 +26,7 @@ This directory contains all runnable code examples for Chapter 11: Multi-Tool Ag
 
 3. Run any example:
    ```bash
-   python example_04_multi_tool_agent.py
+   uv run python example_04_multi_tool_agent.py
    ```
 
 ## Dependencies
