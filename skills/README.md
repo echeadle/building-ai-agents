@@ -44,7 +44,7 @@ building-ai-agents-from-scratch-with-python/
 │   └── code/
 ├── ...
 └── appendix-a-python-refresher/
-    └── appendix.md
+    └── appendix-a.md
 ```
 
 ## Book at a Glance
