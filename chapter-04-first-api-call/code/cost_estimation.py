@@ -16,7 +16,9 @@ if not api_key:
 
 client = anthropic.Anthropic()
 
-# Pricing per million tokens (as of early 2025 - check Anthropic's website for current rates)
+# Pricing per million tokens (as of early 2025)
+# IMPORTANT: Pricing changes over time!
+# Always check https://www.anthropic.com/pricing for current rates before using in production
 PRICING = {
     "claude-sonnet-4-20250514": {"input": 3.00, "output": 15.00},
     "claude-opus-4-20250514": {"input": 15.00, "output": 75.00},

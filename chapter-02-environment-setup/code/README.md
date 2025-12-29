@@ -1,6 +1,8 @@
 # Chapter 2: Code Examples
 
-This directory contains the code examples for Chapter 2: Setting Up Your Development Environment.
+This directory contains the reference code examples for Chapter 2: Setting Up Your Development Environment.
+
+**Note:** In the chapter, you'll create your own project (`agents-from-scratch`) and build these scripts in your `examples/` directory. The files here are reference implementations you can compare against.
 
 ## Files
 

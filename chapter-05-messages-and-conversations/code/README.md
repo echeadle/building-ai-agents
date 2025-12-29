@@ -33,8 +33,8 @@ ANTHROPIC_API_KEY=your-api-key-here
 Then run any example:
 
 ```bash
-python example_01_message_structure.py
-python example_04_chat_loop.py  # Interactive chat
+uv run python example_01_message_structure.py
+uv run python example_04_chat_loop.py  # Interactive chat
 ```
 
 ## Dependencies

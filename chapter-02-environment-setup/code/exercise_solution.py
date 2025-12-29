@@ -49,13 +49,14 @@ def check_dotenv_package() -> bool:
 def check_env_file() -> bool:
     """
     Check if .env file exists in the project root.
-    
+
     Returns True with a warning if not found (since we haven't created it yet).
     This is a soft check - we don't want to fail the verification.
     """
-    # Get the project root (parent of the examples/ directory)
-    # This script is in: project_root/examples/exercise_solution.py
-    # So we go up two levels: script -> examples -> project_root
+    # Get the project root (two levels up from this script's directory)
+    # In your project: project_root/examples/exercise_solution.py
+    # In this book: chapter-02-environment-setup/code/exercise_solution.py
+    # Either way: script -> [examples or code] -> project_root
     script_path = Path(__file__).resolve()
     project_root = script_path.parent.parent
     

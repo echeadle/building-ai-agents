@@ -166,9 +166,9 @@ Congratulations! You've just had your first programmatic conversation with an AI
 
 ## Understanding the Response Structure
 
-The `message` object returned by the API contains more than just text. The api_response.py file explores the response object. :
+The `message` object returned by the API contains more than just text. The response_structure.py file explores the response object:
 
-**File:** api_response.py
+**File:** response_structure.py
 
 ```python
 """

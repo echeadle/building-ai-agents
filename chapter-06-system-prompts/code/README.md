@@ -33,12 +33,12 @@ Before running any examples, ensure you have:
 Each file can be run directly:
 
 ```bash
-python basic_system_prompt.py
-python code_review_agent.py
-python persona_example.py
-python agent_class.py
-python test_system_prompt.py
-python exercise_recipe_agent.py
+uv run python basic_system_prompt.py
+uv run python code_review_agent.py
+uv run python persona_example.py
+uv run python agent_class.py
+uv run python test_system_prompt.py
+uv run python exercise_recipe_agent.py
 ```
 
 ## Key Concepts Demonstrated
