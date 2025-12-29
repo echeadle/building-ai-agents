@@ -19,28 +19,28 @@ Before running these examples, make sure you have:
 Demonstrates how to detect when Claude wants to use a tool and extract tool use blocks from the response.
 
 ```bash
-uv run example_01_detecting_tool_use.py
+uv run python example_01_detecting_tool_use.py
 ```
 
 ### example_02_parsing_and_executing.py
 Shows how to parse tool arguments, execute the corresponding Python function, and format results.
 
 ```bash
-uv run example_02_parsing_and_executing.py
+uv run python example_02_parsing_and_executing.py
 ```
 
 ### example_03_complete_loop.py
 The complete tool use loop implementation - a working calculator that Claude can use to solve math problems.
 
 ```bash
-uv run example_03_complete_loop.py
+uv run python example_03_complete_loop.py
 ```
 
 ### exercise_solution.py
 Solution to the chapter's practical exercise - an extended calculator with more operations and better error handling.
 
 ```bash
-uv run exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 ## Key Concepts
