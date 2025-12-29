@@ -8,19 +8,19 @@ This directory contains code examples for Chapter 7: Introduction to Tool Use.
 
 Demonstrates the limitations of an LLM without tools. Shows how Claude responds when asked about information it cannot access (current stock prices, real-time weather, etc.).
 
-**Run:** `python example_01_naked_llm.py`
+**Run:** `uv run python example_01_naked_llm.py`
 
 ### `example_02_tool_preview.py`
 
 A preview of tool use that demonstrates the basic structure. This example shows how to define a tool and send it to Claude, but doesn't yet handle the tool execution (that comes in Chapter 9).
 
-**Run:** `python example_02_tool_preview.py`
+**Run:** `uv run python example_02_tool_preview.py`
 
 ### `exercise.py`
 
 Solution to the practical exercise: designing tool definitions for a personal assistant. Contains example tool definitions with detailed descriptions and parameter schemas.
 
-**Run:** `python exercise.py` (prints the tool definitions)
+**Run:** `uv run python exercise.py` (prints the tool definitions)
 
 ## Prerequisites
 
