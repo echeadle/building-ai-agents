@@ -31,7 +31,7 @@ This directory contains all runnable code examples from Chapter 28: State Manage
 
 3. Run any example:
    ```bash
-   python example_01_stateless_demo.py
+   uv run python example_01_stateless_demo.py
    ```
 
 ## Notes

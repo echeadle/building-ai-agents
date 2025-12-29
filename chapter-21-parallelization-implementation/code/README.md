@@ -33,22 +33,22 @@ Each example can be run directly:
 
 ```bash
 # Basic asyncio demonstration
-python example_01_asyncio_basics.py
+uv run python example_01_asyncio_basics.py
 
 # Sectioning pattern
-python example_02_sectioning.py
+uv run python example_02_sectioning.py
 
 # Voting pattern
-python example_03_voting.py
+uv run python example_03_voting.py
 
 # Error handling
-python example_04_error_handling.py
+uv run python example_04_error_handling.py
 
 # Full code review system
-python example_05_code_review.py
+uv run python example_05_code_review.py
 
 # Exercise solution
-python exercise_translation.py
+uv run python exercise_translation.py
 ```
 
 ## Key Concepts

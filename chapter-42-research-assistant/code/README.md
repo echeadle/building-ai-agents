@@ -64,7 +64,7 @@ Get your keys:
 ### Basic Research Assistant
 
 ```bash
-python research_assistant.py
+uv run python research_assistant.py
 ```
 
 This will:
@@ -76,7 +76,7 @@ This will:
 ### Parallel Research Assistant
 
 ```bash
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 This enhanced version reads multiple sources in parallel for faster research.
@@ -87,13 +87,13 @@ Test each tool separately:
 
 ```bash
 # Test web search
-python web_search_tool.py
+uv run python web_search_tool.py
 
 # Test web reading
-python web_read_tool.py
+uv run python web_read_tool.py
 
 # Test note-taking
-python save_note_tool.py
+uv run python save_note_tool.py
 ```
 
 ## How It Works

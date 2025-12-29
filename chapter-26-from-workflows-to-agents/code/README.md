@@ -34,9 +34,9 @@ A template for analyzing whether a workflow should be upgraded to an agent. Use 
 
 3. Run any example:
    ```bash
-   python workflow_vs_agent_comparison.py
-   python minimal_agent_loop.py
-   python autonomy_patterns.py
+   uv run python workflow_vs_agent_comparison.py
+   uv run python minimal_agent_loop.py
+   uv run python autonomy_patterns.py
    ```
 
 ## Key Concepts

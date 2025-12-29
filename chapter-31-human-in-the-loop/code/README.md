@@ -35,7 +35,7 @@ This directory contains complete, runnable code examples for implementing human-
 
 3. Run the complete HITL agent:
    ```bash
-   python hitl_agent.py
+   uv run python hitl_agent.py
    ```
 
 ## Component Overview

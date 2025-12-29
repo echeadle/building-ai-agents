@@ -31,22 +31,22 @@ Each file is self-contained and can be run directly:
 
 ```bash
 # Basic agentic loop
-python basic_agentic_loop.py
+uv run python basic_agentic_loop.py
 
 # Multi-tool agent
-python multi_tool_agent.py
+uv run python multi_tool_agent.py
 
 # Agent with loop detection
-python loop_detection.py
+uv run python loop_detection.py
 
 # Agent with tracking
-python tracking_agent.py
+uv run python tracking_agent.py
 
 # Complete sequential agent
-python sequential_agent.py
+uv run python sequential_agent.py
 
 # Exercise solution
-python exercise_trip_planner.py
+uv run python exercise_trip_planner.py
 ```
 
 ## Key Concepts Demonstrated

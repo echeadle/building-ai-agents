@@ -18,13 +18,13 @@ These examples are conceptual demonstrations. They show the structure and interf
 
 ```bash
 # View the pattern structure
-python pattern_overview.py
+uv run python pattern_overview.py
 
 # See worker design examples  
-python worker_design.py
+uv run python worker_design.py
 
 # Review the exercise solution
-python exercise_design.py
+uv run python exercise_design.py
 ```
 
 ### Prerequisites

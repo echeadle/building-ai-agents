@@ -34,21 +34,21 @@ This directory contains all runnable code examples from Chapter 36.
 Most examples can be run directly:
 
 ```bash
-python example_01_basic_logging.py
-python example_02_structured_logging.py
+uv run python example_01_basic_logging.py
+uv run python example_02_structured_logging.py
 ```
 
 Examples 04 and 08 make actual API calls and require a valid API key:
 
 ```bash
-python example_04_tracing.py
-python example_08_integration.py
+uv run python example_04_tracing.py
+uv run python example_08_integration.py
 ```
 
 The exercise solution starts a simple web server:
 
 ```bash
-python exercise_solution.py
+uv run python exercise_solution.py
 # Then open http://localhost:8000 in your browser
 ```
 

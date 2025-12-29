@@ -37,13 +37,13 @@ export ANTHROPIC_API_KEY=your-api-key-here
 echo "ANTHROPIC_API_KEY=your-api-key-here" > .env
 
 # Run any example
-python example_01_debug_logger.py
-python example_02_conversation_debugger.py
-python example_03_tool_debugger.py
-python example_04_loop_detector.py
-python example_05_replay_system.py
-python example_06_debugging_helper.py
-python exercise_solution.py
+uv run python example_01_debug_logger.py
+uv run python example_02_conversation_debugger.py
+uv run python example_03_tool_debugger.py
+uv run python example_04_loop_detector.py
+uv run python example_05_replay_system.py
+uv run python example_06_debugging_helper.py
+uv run python exercise_solution.py
 ```
 
 ## Dependencies

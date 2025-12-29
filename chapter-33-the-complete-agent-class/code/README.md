@@ -29,7 +29,7 @@ This directory contains the complete, production-ready Agent class and all suppo
 
 3. **Run the example:**
    ```bash
-   python example_usage.py
+   uv run python example_usage.py
    ```
 
 ## Module Dependencies
@@ -118,12 +118,12 @@ See `exercise_customer_service_agent.py` for a complete example of extending the
 Each module can be run standalone to see a demonstration:
 
 ```bash
-python config.py      # Shows configuration presets
-python tools.py       # Demonstrates tool registry
-python state.py       # Shows state management
-python guardrails.py  # Demonstrates safety checks
-python errors.py      # Shows error handling
-python agent.py       # Quick agent demo
+uv run python config.py      # Shows configuration presets
+uv run python tools.py       # Demonstrates tool registry
+uv run python state.py       # Shows state management
+uv run python guardrails.py  # Demonstrates safety checks
+uv run python errors.py      # Shows error handling
+uv run python agent.py       # Quick agent demo
 ```
 
 ## Key Concepts

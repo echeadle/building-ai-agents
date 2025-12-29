@@ -25,9 +25,9 @@ These examples are conceptual and demonstrate testing philosophy. They require t
 uv add pytest anthropic python-dotenv
 
 # Run the examples
-python behavior_tests.py
-python test_dataset.py
-python evaluation_metrics.py
+uv run python behavior_tests.py
+uv run python test_dataset.py
+uv run python evaluation_metrics.py
 ```
 
 ## Key Concepts

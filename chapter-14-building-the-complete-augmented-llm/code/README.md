@@ -48,19 +48,19 @@ This directory contains all code examples for Chapter 14.
 
 ```bash
 # Basic usage
-python example_basic.py
+uv run python example_basic.py
 
 # With tools
-python example_tools.py
+uv run python example_tools.py
 
 # Structured output
-python example_structured.py
+uv run python example_structured.py
 
 # Multi-turn conversations
-python example_conversation.py
+uv run python example_conversation.py
 
 # Exercise solution (interactive)
-python exercise_unit_converter.py
+uv run python exercise_unit_converter.py
 ```
 
 ## Running Tests

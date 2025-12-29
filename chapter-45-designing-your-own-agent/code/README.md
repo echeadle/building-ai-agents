@@ -10,10 +10,10 @@ A comprehensive template for documenting your agent design from start to finish.
 **Usage:**
 ```bash
 # See the blank template
-python design_template.py template
+uv run python design_template.py template
 
 # See a filled-out example (Meeting Notes Agent)
-python design_template.py example
+uv run python design_template.py example
 ```
 
 **What it includes:**
@@ -60,7 +60,7 @@ checklist.add_custom_task(6, "Add email integration")
 
 Run the file directly to see an interactive demo:
 ```bash
-python development_checklist.py
+uv run python development_checklist.py
 ```
 
 ---
@@ -94,7 +94,7 @@ echo "ANTHROPIC_API_KEY=your-key-here" > .env
 
 4. Run the server:
 ```bash
-python fastapi_deployment.py
+uv run python fastapi_deployment.py
 ```
 
 5. Visit the docs:
@@ -134,7 +134,7 @@ API_RELOAD=false
 ### 1. Start with Design
 Use `design_template.py` to plan your agent:
 ```bash
-python design_template.py template > my_agent_design.md
+uv run python design_template.py template > my_agent_design.md
 ```
 Fill out the template completely before writing code.
 

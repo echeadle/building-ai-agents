@@ -49,28 +49,28 @@ Each file can be run independently:
 
 ```bash
 # Test input validation
-python input_validator.py
+uv run python input_validator.py
 
 # Test output filtering
-python output_filter.py
+uv run python output_filter.py
 
 # Test action constraints
-python action_constraints.py
+uv run python action_constraints.py
 
 # Test resource management
-python resource_manager.py
+uv run python resource_manager.py
 
 # Test sandboxing
-python sandbox.py
+uv run python sandbox.py
 
 # Run complete guardrails demo
-python guardrails.py
+uv run python guardrails.py
 
 # Run agent with guardrails
-python agent_with_guardrails.py
+uv run python agent_with_guardrails.py
 
 # Run exercise solution
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 ## Key Concepts

@@ -26,13 +26,13 @@ This directory contains complete, runnable code examples for the Orchestrator-Wo
 
 ```bash
 # Run the complete orchestrator
-python research_orchestrator.py
+uv run python research_orchestrator.py
 
 # Try example usage patterns
-python example_usage.py
+uv run python example_usage.py
 
 # Run the parallel exercise solution
-python exercise_parallel_orchestrator.py
+uv run python exercise_parallel_orchestrator.py
 ```
 
 ## Key Concepts

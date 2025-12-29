@@ -14,10 +14,10 @@ All examples require your `.env` file with `ANTHROPIC_API_KEY` set.
 
 ```bash
 # Analyze a task to get pattern recommendations
-python pattern_analyzer.py
+uv run python pattern_analyzer.py
 
 # See examples of simple prompts vs. workflows
-python simple_vs_workflow.py
+uv run python simple_vs_workflow.py
 ```
 
 ## Key Concepts

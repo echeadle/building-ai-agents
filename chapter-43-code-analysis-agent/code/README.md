@@ -81,22 +81,22 @@ This directory contains all the code for Chapter 43: Code Analysis Agent.
 
 Analyze the current directory:
 ```bash
-python code_analysis_agent.py .
+uv run python code_analysis_agent.py .
 ```
 
 Analyze a specific project:
 ```bash
-python code_analysis_agent.py /path/to/project
+uv run python code_analysis_agent.py /path/to/project
 ```
 
 Run the examples:
 ```bash
-python example_usage.py
+uv run python example_usage.py
 ```
 
 Run the enhanced agent with refactoring:
 ```bash
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 ### Testing Individual Tools
@@ -105,19 +105,19 @@ Each tool file can be run independently to see how it works:
 
 ```bash
 # Test directory listing
-python list_directory_tool.py
+uv run python list_directory_tool.py
 
 # Test file reading
-python read_file_tool.py
+uv run python read_file_tool.py
 
 # Test import analysis
-python analyze_imports_tool.py
+uv run python analyze_imports_tool.py
 
 # Test pattern finding
-python find_pattern_tool.py
+uv run python find_pattern_tool.py
 
 # Test finding storage
-python save_finding_tool.py
+uv run python save_finding_tool.py
 ```
 
 ## How It Works

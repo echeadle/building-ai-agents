@@ -28,7 +28,7 @@ This directory contains complete, runnable code examples for the evaluator-optim
 
 3. **Run the simple example first:**
    ```bash
-   python simple_example.py
+   uv run python simple_example.py
    ```
 
 ## File Details
@@ -64,10 +64,10 @@ A high-level writing assistant with:
 
 **Run demos:**
 ```bash
-python writing_assistant.py product    # Product description
-python writing_assistant.py technical  # Technical documentation
-python writing_assistant.py email      # Professional email
-python writing_assistant.py improve    # Improve existing content
+uv run python writing_assistant.py product    # Product description
+uv run python writing_assistant.py technical  # Technical documentation
+uv run python writing_assistant.py email      # Professional email
+uv run python writing_assistant.py improve    # Improve existing content
 ```
 
 ### `simple_example.py`
@@ -81,7 +81,7 @@ A minimal, self-contained example that's easy to understand:
 **Best for:** Understanding the pattern before diving into the full implementation.
 
 ```bash
-python simple_example.py
+uv run python simple_example.py
 ```
 
 ### `exercise.py`
@@ -95,9 +95,9 @@ The chapter exercise solution - a code review assistant that:
 
 **Run demos:**
 ```bash
-python exercise.py poor    # Improve poor code
-python exercise.py good    # Review already-good code
-python exercise.py review  # Assessment only
+uv run python exercise.py poor    # Improve poor code
+uv run python exercise.py good    # Review already-good code
+uv run python exercise.py review  # Assessment only
 ```
 
 ## Key Concepts Demonstrated

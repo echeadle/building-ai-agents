@@ -30,12 +30,12 @@ Complete solution for the chapter exercise - a cost-aware research agent.
 Each file can be run directly:
 
 ```bash
-python token_utils.py
-python prompt_optimizer.py
-python cache.py
-python model_selector.py
-python cost_monitor.py
-python exercise_solution.py  # Requires API key
+uv run python token_utils.py
+uv run python prompt_optimizer.py
+uv run python cache.py
+uv run python model_selector.py
+uv run python cost_monitor.py
+uv run python exercise_solution.py  # Requires API key
 ```
 
 ## Requirements

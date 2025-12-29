@@ -35,17 +35,17 @@ This directory contains all code examples for Chapter 39 of "Building AI Agents 
 
 3. **Run individual modules:**
    ```bash
-   python latency_profiler.py      # Profiling demo
-   python streaming_agent.py       # Streaming demo
-   python parallel_executor.py     # Parallel execution demo
-   python response_budget.py       # Budget management demo
-   python model_selector.py        # Model selection demo
-   python speed_cache.py           # Caching demo
+   uv run python latency_profiler.py      # Profiling demo
+   uv run python streaming_agent.py       # Streaming demo
+   uv run python parallel_executor.py     # Parallel execution demo
+   uv run python response_budget.py       # Budget management demo
+   uv run python model_selector.py        # Model selection demo
+   uv run python speed_cache.py           # Caching demo
    ```
 
 4. **Run the latency dashboard:**
    ```bash
-   python exercise_solution.py
+   uv run python exercise_solution.py
    # Open http://localhost:8080 in your browser
    ```
 
@@ -167,7 +167,7 @@ The exercise solution creates a real-time web dashboard showing:
 
 Run with:
 ```bash
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 Then open http://localhost:8080 in your browser.

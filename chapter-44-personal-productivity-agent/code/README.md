@@ -30,7 +30,7 @@ This directory contains the complete implementation of a personal productivity a
 
 3. **Run the agent:**
    ```bash
-   python agent.py
+   uv run python agent.py
    ```
 
 ## Usage Examples
@@ -163,7 +163,7 @@ The `exercise_solution.py` file adds complete time tracking:
 
 Run it with:
 ```bash
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 ## Production Considerations

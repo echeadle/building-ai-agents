@@ -56,7 +56,7 @@ DEBUG=true
 ### 3. Run the Basic API
 
 ```bash
-python basic_api.py
+uv run python basic_api.py
 ```
 
 Then visit:

@@ -59,13 +59,13 @@ cd chapter-30/code
 cp .env.example .env  # Add your API key
 
 # Run examples
-python error_types.py
-python retry_logic.py
-python fallback_strategies.py
-python logging_errors.py
-python self_correction.py
-python error_handler.py
-python exercise.py
+uv run python error_types.py
+uv run python retry_logic.py
+uv run python fallback_strategies.py
+uv run python logging_errors.py
+uv run python self_correction.py
+uv run python error_handler.py
+uv run python exercise.py
 ```
 
 ## Dependencies

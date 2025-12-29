@@ -43,13 +43,13 @@ Before running these examples, ensure you have:
 
 ```bash
 # Run any example
-python example_01_plan_then_execute.py
-python example_02_chain_of_thought.py
-python example_03_planning_agent.py
-python example_04_plan_revision.py
-python example_05_transparent_planning.py
-python example_06_when_to_plan.py
-python exercise.py
+uv run python example_01_plan_then_execute.py
+uv run python example_02_chain_of_thought.py
+uv run python example_03_planning_agent.py
+uv run python example_04_plan_revision.py
+uv run python example_05_transparent_planning.py
+uv run python example_06_when_to_plan.py
+uv run python exercise.py
 ```
 
 ## Key Concepts Demonstrated
