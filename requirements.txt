@@ -1,0 +1,30 @@
+# Building AI Agents from Scratch with Python
+# Consolidated requirements for all chapters
+
+# Core dependencies (used throughout the book)
+anthropic>=0.18.0        # Claude API access
+python-dotenv>=1.0.0     # Environment variable management
+
+# Data validation and structured outputs (Chapters 11-14)
+pydantic>=2.0.0          # Data models and validation
+
+# Testing (Chapters 35-37)
+pytest>=7.4.0            # Testing framework
+pytest-asyncio>=0.21.0   # Async test support
+
+# Deployment (Chapters 40-41)
+fastapi>=0.109.0         # REST API framework
+uvicorn[standard]>=0.27.0  # ASGI server
+
+# Optional production dependencies
+# Uncomment based on your deployment needs:
+
+# prometheus-client>=0.19.0    # Metrics and monitoring (Chapter 37)
+# sentry-sdk>=1.40.0           # Error tracking (Chapter 37)
+# redis>=5.0.0                 # Caching (Chapter 38)
+# python-jose[cryptography]>=3.3.0  # JWT tokens (Chapter 41)
+
+# Development dependencies
+# black>=24.0.0           # Code formatting
+# mypy>=1.8.0             # Type checking
+# ruff>=0.1.0             # Fast linting
