@@ -10,7 +10,7 @@ Track your progress as you read through the book and test all code examples.
 
 ## Part 1: Foundations (Chapters 1-6)
 
-- [ ] **Chapter 1: What Are AI Agents**
+- [ ] **Chapter 1: What Are AI Agents?**
   - Conceptual chapter (no code)
   - Notes:
 
@@ -24,13 +24,13 @@ Track your progress as you read through the book and test all code examples.
   - Run: `uv run python validate_env.py`
   - Notes:
 
-- [ ] **Chapter 4: Your First API Call**
+- [ ] **Chapter 4: Your First API Call to Claude**
   - Notes:
 
-- [ ] **Chapter 5: Managing Conversations**
+- [ ] **Chapter 5: Understanding Messages and Conversations**
   - Notes:
 
-- [ ] **Chapter 6: System Prompts**
+- [ ] **Chapter 6: System Prompts and Persona Design**
   - Notes:
 
 ## Part 2: Augmented LLM (Chapters 7-14)
@@ -41,19 +41,19 @@ Track your progress as you read through the book and test all code examples.
 - [ ] **Chapter 8: Defining Your First Tool**
   - Notes:
 
-- [ ] **Chapter 9: Implementing Tool Functions**
+- [ ] **Chapter 9: Handling Tool Calls**
   - Notes:
 
 - [ ] **Chapter 10: Building a Weather Tool**
   - Notes:
 
-- [ ] **Chapter 11: Structured Outputs**
+- [ ] **Chapter 11: Multi-Tool Agents**
   - Notes:
 
-- [ ] **Chapter 12: JSON Schema Validation**
+- [ ] **Chapter 12: Sequential Tool Calls**
   - Notes:
 
-- [ ] **Chapter 13: Tool Lifecycle**
+- [ ] **Chapter 13: Structured Outputs and Response Parsing**
   - Notes:
 
 - [ ] **Chapter 14: Building the Complete Augmented LLM**
@@ -62,43 +62,43 @@ Track your progress as you read through the book and test all code examples.
 
 ## Part 3: Workflows (Chapters 15-25)
 
-- [ ] **Chapter 15: Prompt Chaining Concept**
+- [ ] **Chapter 15: Introduction to Agentic Workflows**
   - Notes:
 
-- [ ] **Chapter 16: Prompt Chaining Implementation**
+- [ ] **Chapter 16: Prompt Chaining - Concept and Design**
   - Notes:
 
-- [ ] **Chapter 17: Chaining with Context**
+- [ ] **Chapter 17: Prompt Chaining - Implementation**
   - Notes:
 
-- [ ] **Chapter 18: Routing Concept**
+- [ ] **Chapter 18: Routing - Concept and Design**
   - Notes:
 
-- [ ] **Chapter 19: Routing Implementation**
+- [ ] **Chapter 19: Routing - Implementation**
   - Notes:
 
-- [ ] **Chapter 20: Parallelization Concept**
+- [ ] **Chapter 20: Parallelization - Concept and Design**
   - Notes:
 
-- [ ] **Chapter 21: Parallelization Implementation**
+- [ ] **Chapter 21: Parallelization - Implementation**
   - Notes:
 
-- [ ] **Chapter 22: Orchestrator-Workers Concept**
+- [ ] **Chapter 22: Orchestrator-Workers - Concept and Design**
   - Notes:
 
-- [ ] **Chapter 23: Orchestrator-Workers Implementation**
+- [ ] **Chapter 23: Orchestrator-Workers - Implementation**
   - Notes:
 
-- [ ] **Chapter 24: Evaluator-Optimizer Concept**
+- [ ] **Chapter 24: Evaluator-Optimizer - Concept and Design**
   - Notes:
 
-- [ ] **Chapter 25: Evaluator-Optimizer Implementation**
+- [ ] **Chapter 25: Evaluator-Optimizer - Implementation**
   - **Milestone**: All five workflow patterns complete
   - Notes:
 
 ## Part 4: True Agents (Chapters 26-33)
 
-- [ ] **Chapter 26: What Makes an Agent**
+- [ ] **Chapter 26: From Workflows to Agents**
   - Notes:
 
 - [ ] **Chapter 27: The Agentic Loop**
@@ -107,16 +107,16 @@ Track your progress as you read through the book and test all code examples.
 - [ ] **Chapter 28: State Management**
   - Notes:
 
-- [ ] **Chapter 29: Persisting State**
+- [ ] **Chapter 29: Planning and Reasoning**
   - Notes:
 
-- [ ] **Chapter 30: Planning and Reasoning**
+- [ ] **Chapter 30: Error Handling and Recovery**
   - Notes:
 
-- [ ] **Chapter 31: Error Handling**
+- [ ] **Chapter 31: Human-in-the-Loop**
   - Notes:
 
-- [ ] **Chapter 32: Recovery Strategies**
+- [ ] **Chapter 32: Guardrails and Safety**
   - Notes:
 
 - [ ] **Chapter 33: The Complete Agent Class**
@@ -125,27 +125,27 @@ Track your progress as you read through the book and test all code examples.
 
 ## Part 5: Production (Chapters 34-41)
 
-- [ ] **Chapter 34: Testing Philosophy**
+- [ ] **Chapter 34: Testing AI Agents - Philosophy**
   - Notes:
 
-- [ ] **Chapter 35: Testing Implementation**
+- [ ] **Chapter 35: Testing AI Agents - Implementation**
   - Test files: `test_tools.py`, `test_suite.py`
   - Run: `pytest -v`
   - Notes:
 
-- [ ] **Chapter 36: Logging and Debugging**
+- [ ] **Chapter 36: Observability and Logging**
   - Notes:
 
-- [ ] **Chapter 37: Observability**
+- [ ] **Chapter 37: Debugging Agents**
   - Notes:
 
 - [ ] **Chapter 38: Cost Optimization**
   - Notes:
 
-- [ ] **Chapter 39: Deployment Patterns**
+- [ ] **Chapter 39: Latency Optimization**
   - Notes:
 
-- [ ] **Chapter 40: Deploying to Production**
+- [ ] **Chapter 40: Deployment Patterns**
   - Notes:
 
 - [ ] **Chapter 41: Security Considerations**
@@ -153,15 +153,15 @@ Track your progress as you read through the book and test all code examples.
 
 ## Part 6: Capstone Projects (Chapters 42-45)
 
-- [ ] **Chapter 42: Research Assistant Agent**
+- [ ] **Chapter 42: Project - Research Assistant Agent**
   - **Capstone project 1**
   - Notes:
 
-- [ ] **Chapter 43: Code Analysis Agent**
+- [ ] **Chapter 43: Project - Code Analysis Agent**
   - **Capstone project 2**
   - Notes:
 
-- [ ] **Chapter 44: Personal Productivity Agent**
+- [ ] **Chapter 44: Project - Personal Productivity Agent**
   - **Capstone project 3**
   - Notes:
 
@@ -171,22 +171,25 @@ Track your progress as you read through the book and test all code examples.
 
 ## Appendices
 
-- [ ] **Appendix A: API Reference**
+- [ ] **Appendix A: Python Refresher for Agent Development**
   - Notes:
 
-- [ ] **Appendix B: Tool Catalog**
+- [ ] **Appendix B: API Reference Quick Guide**
   - Notes:
 
-- [ ] **Appendix C: Workflow Patterns**
+- [ ] **Appendix C: Tool Design Patterns**
   - Notes:
 
-- [ ] **Appendix D: Error Handling Strategies**
+- [ ] **Appendix D: Prompt Engineering for Agents**
   - Notes:
 
-- [ ] **Appendix E: Deployment Checklist**
+- [ ] **Appendix E: Troubleshooting Guide**
   - Notes:
 
-- [ ] **Appendix F: Security Checklist**
+- [ ] **Appendix F: Glossary**
+  - Notes:
+
+- [ ] **Appendix G: Resources and Further Reading**
   - Notes:
 
 ---
@@ -239,7 +242,7 @@ Once you complete all chapters:
 4. **Build incrementally** - Start simple, add complexity
 5. **Test thoroughly** - Apply Chapter 35's testing patterns
 6. **Deploy carefully** - Follow Chapter 40's deployment guide
-7. **Monitor continuously** - Use Chapter 37's observability patterns
+7. **Monitor continuously** - Use Chapter 36's observability patterns
 
 ---
 
