@@ -27,7 +27,7 @@ Make sure you have:
 
 Then run any example:
 ```bash
-python example_01_basic_tool.py
+uv run python example_01_basic_tool.py
 ```
 
 ## Note
