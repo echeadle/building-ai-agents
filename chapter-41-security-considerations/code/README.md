@@ -33,31 +33,31 @@ ANTHROPIC_API_KEY=your-api-key-here
 Each file can be run independently to see demonstrations:
 ```bash
 # Secure configuration
-python secure_config.py
+uv run python secure_config.py
 
 # Secrets management
-python secrets_manager.py
+uv run python secrets_manager.py
 
 # Input validation
-python input_validator.py
+uv run python input_validator.py
 
 # Output security
-python output_security.py
+uv run python output_security.py
 
 # Rate limiting
-python rate_limiter.py
+uv run python rate_limiter.py
 
 # Audit logging
-python audit_logger.py
+uv run python audit_logger.py
 
 # Secure tools
-python secure_tools.py
+uv run python secure_tools.py
 
 # Security checklist
-python security_checklist.py
+uv run python security_checklist.py
 
 # Complete solution
-python exercise_solution.py
+uv run python exercise_solution.py
 ```
 
 ## Key Concepts
